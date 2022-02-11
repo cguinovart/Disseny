@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D277ABE-FA4D-9D40-5866-2D885646B44D" name="Premi">
+<createdBy>carlosguimovart</createdBy>
+<createdTime>2022-02-11 07:37:42 UTC</createdTime>
+<ownerDesignName>RubenGomez_CarlosGuinovart</ownerDesignName>
+<engineerTo>
+<item key="01808186-2B58-051A-9ADD-91A458231A65" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nom" id="B24A4BA1-E981-F561-1C3B-5D8C99F0E169">
+<createdBy>carlosguimovart</createdBy>
+<createdTime>2022-02-11 07:54:53 UTC</createdTime>
+<ownerDesignName>RubenGomez_CarlosGuinovart</ownerDesignName>
+<engineerTo>
+<item key="01808186-2B58-051A-9ADD-91A458231A65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5F10C77A-2E3E-41ED-F556-759AAF2446D9" name="Premi PK">
+<createdBy>carlosguimovart</createdBy>
+<createdTime>2022-02-11 08:15:06 UTC</createdTime>
+<ownerDesignName>RubenGomez_CarlosGuinovart</ownerDesignName>
+<engineerTo>
+<item key="01808186-2B58-051A-9ADD-91A458231A65" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B24A4BA1-E981-F561-1C3B-5D8C99F0E169</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

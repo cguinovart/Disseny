@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="RubenGomez_CarlosGuinovart" id="3FF9389F-4628-EEED-7631-770B89336281" version="3.5">
+<createdBy>carlosguimovart</createdBy>
+<createdTime>2022-02-11 07:32:42 UTC</createdTime>
+<ownerDesignName>RubenGomez_CarlosGuinovart</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3FF9389F-4628-EEED-7631-770B89336281</designId>
+</OSDM_Design>

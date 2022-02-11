@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="492FD5FE-E2B5-8302-0DAA-6DC87C927C37" name="Recomenacio">
+<createdBy>carlosguimovart</createdBy>
+<createdTime>2022-02-11 08:11:20 UTC</createdTime>
+<ownerDesignName>RubenGomez_CarlosGuinovart</ownerDesignName>
+<engineerTo>
+<item key="01808186-2B58-051A-9ADD-91A458231A65" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="A7B76511-8B6A-34B7-4104-03CE84889911">
+<createdBy>carlosguimovart</createdBy>
+<createdTime>2022-02-11 08:12:22 UTC</createdTime>
+<generatorID>DE44A7D3-D18E-ED87-AEDD-B51BEC502750</generatorID>
+<ownerDesignName>RubenGomez_CarlosGuinovart</ownerDesignName>
+<engineerTo>
+<item key="01808186-2B58-051A-9ADD-91A458231A65" value="true"/>
+</engineerTo>
+<referedAttribute>C998DF0F-D1E4-DF93-66EF-E49E9685C148</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NickName" id="6577BCC9-D250-ED7A-2FDD-DE48727907A0">
+<createdBy>carlosguimovart</createdBy>
+<createdTime>2022-02-11 08:13:17 UTC</createdTime>
+<generatorID>F812D772-79CE-84B3-7999-2851E03D5666</generatorID>
+<ownerDesignName>RubenGomez_CarlosGuinovart</ownerDesignName>
+<engineerTo>
+<item key="01808186-2B58-051A-9ADD-91A458231A65" value="true"/>
+</engineerTo>
+<referedAttribute>0D542E5B-0984-0FED-F69F-530406223241</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
